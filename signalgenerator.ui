@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignalGenerator</class>
+ <widget class="QWidget" name="SignalGenerator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1053</width>
+    <height>1008</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(57, 68, 87);
+color: rgb(255, 255, 255);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(25, 49, 61);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,14">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <family>Bookman Old Style</family>
+              <pointsize>18</pointsize>
+              <weight>75</weight>
+              <italic>true</italic>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 255, 255);
+color: rgb(255, 213, 69);</string>
+            </property>
+            <property name="text">
+             <string>WAVEFORMS FILE GENERATOR FOR FTU</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,10">
+               <property name="spacing">
+                <number>7</number>
+               </property>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_15" stretch="0">
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QGroupBox" name="groupBox_15">
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);
+color: rgb(255, 213, 69);</string>
+                   </property>
+                   <property name="title">
+                    <string/>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_20">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_16">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_FTU_TestNo">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>FTU TEST No</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_FTU_TestNo">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="inputMethodHints">
+                         <set>Qt::ImhNone</set>
+                        </property>
+                        <property name="maxLength">
+                         <number>999</number>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QComboBox" name="cmb_FTU_TestNo">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>12</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="pbtn_FTU_TestNo">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>12</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="text">
+                         <string>BROWSE</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_25">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>PROJECT NAME</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QComboBox" name="ProjectName">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_15">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="TransmissionMode_label">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>TRANSMISSION MODE</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="TransmissionMode_lineedit">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_7">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="WaveFormSelect_lable">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>SIGNAL TYPE</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="WaveFormSelect_lineedit">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_14">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="SignalInjectionPoint_label">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>SIGNAL INJECTION POINT</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="SignalInjectionPoint_lineedit">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_13">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="Amp1_label">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>AMPLITUDE_1 (Vpp)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="Amplitude1_LineEdit">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_2">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="Amplitude_percent_of_stroke_label">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>Amplitude_percent_of_stroke</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="Amplitude_percent_of_stroke_LineEdit">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_12">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_SafeEngageTime">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>SAFE ENGAGE TIME (Sec)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="SafeEngageTime">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_11">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_InvertFlag">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>INVERT FLAG</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="LIneEdit_InvertFlag">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_10">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_C0">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>C0-(mm) or (mV)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_C0">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_9">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_C1">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>C1-(mm) or (mV)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_C1">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_8">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="labelStartFreq">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>START FREQUENCY (Hz)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEditStartFreq">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_6">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="labelEndFreq">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>END FREQUENCY (Hz)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEditEndFreq">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_5">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="labelFreqStep">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>FREQUENCY STEP (Hz)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEditFreqStep">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_4">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="labelDWell_Duration">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>DWELL DURATION (Sec)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_DwellDuration">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_17">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_TypeOfInput">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>TYPE OF INPUT </string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_TypeOfInput">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_18">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_SlateInput">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>SLAT INPUT</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_SlateInput">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_29">
+                      <item>
+                       <widget class="QLabel" name="label_PulseWidth">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>PULSE WIDTH</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_PulseWidth">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_19">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_PulseWidth_Sec">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>PULSE WIDTH (Sec)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_PulseWidth_Sec">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_20">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_Repeats">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>No. of REPEATS (Sec)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_Repeats">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_21">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_Time_BW_Repeats">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>TIME BETWEEN REPEATS (Sec)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_Time_BW_Repeats">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_23">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_Max_Amplitude">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>Max_Amplitude</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_Max_Amplitude">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_24">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_Impulse_Amplitude">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>Impulse_Amplitude</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_Impulse_Amplitude">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_3">
+                      <item>
+                       <widget class="QLabel" name="label_Frequency_Hz_for_sine_doublets_and_Time_sec_for_pulse">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>Frequency_Hz_for_sine_doublets_and_Time_sec_for_pulse</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_Frequency_Hz_for_sine_doublets_and_Time_sec_for_pulse">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_26">
+                      <item>
+                       <widget class="QLabel" name="label_Wo">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>Wo</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_Wo">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_27">
+                      <item>
+                       <widget class="QLabel" name="label_Wf">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>Wf</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_Wf">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_28">
+                      <item>
+                       <widget class="QLabel" name="label_Sweep_Duration">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>Sweep_Duration</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_Sweep_Duration">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>11</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="Line" name="line">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_22">
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <spacer name="horizontalSpacer">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>40</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="PlotWaveforms_PB">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>14</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(55, 117, 168);
+background-color: rgb(255, 213, 69);</string>
+                        </property>
+                        <property name="text">
+                         <string>PLOT WAVEFORMS</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="horizontalSpacer_2">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>40</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="waveform_read_pbtn">
+                        <property name="font">
+                         <font>
+                          <family>Bookman Old Style</family>
+                          <pointsize>12</pointsize>
+                          <weight>75</weight>
+                          <italic>true</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(55, 117, 168);
+background-color: rgb(255, 213, 69);</string>
+                        </property>
+                        <property name="text">
+                         <string>READ</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="horizontalSpacer_3">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>40</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="Line" name="line_2">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_7" stretch="1,10,1,10,1,10,1,10">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="LabelGraph1">
+                   <property name="font">
+                    <font>
+                     <family>Bookman Old Style</family>
+                     <pointsize>11</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>TextLabel</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCustomPlot" name="Graph1" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(55, 117, 168);</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="LabelGraph2">
+                   <property name="font">
+                    <font>
+                     <family>Bookman Old Style</family>
+                     <pointsize>11</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>TextLabel</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCustomPlot" name="Graph2" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 127);</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="LabelGraph3">
+                   <property name="font">
+                    <font>
+                     <family>Bookman Old Style</family>
+                     <pointsize>11</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>TextLabel</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCustomPlot" name="Graph3" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(85, 255, 127);</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="LabelGraph4">
+                   <property name="font">
+                    <font>
+                     <family>Bookman Old Style</family>
+                     <pointsize>11</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>TextLabel</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCustomPlot" name="Graph4" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 170, 255);</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header location="global">qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
